@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Age and Gender Prediction Tool</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="main">
+            <header>
+                <h1>Age and Gender Prediction</h1>
+            </header>
+            <div class="container">
+                <main>
+                    <section class="prediction-form">
+                        <h2>Upload an Image</h2>
+                        <img id="pic" src="cam1.png" alt="">
+                        <input type="file" id="image-upload" accept="image/*">
+                        <p>Upload an image to predict the age and gender.</p>
+                        <button id="predict-button">Predict</button>
+                    </section>
+
+                </main>
+                <section class="prediction-result">
+                    <h2>Prediction Result</h2>
+                    <div id="result">
+                        <p>Age Group: <span id="predicted-age">N/A</span></p>
+                        <p>Gender: <span id="predicted-gender">N/A</span></p>
+                    </div>
+                    
+                    <!-- <div id="image-preview">
+                        <h2>Uploaded Image</h2>
+                        <img src="" alt="Uploaded Image" height="30%" width="30%" id="uploaded-image">    
+                    </div> -->
+                    
+                </section>
+
+            </div>
+            <footer>
+                <p>&copy; 2023 Age and Gender Prediction Tool</p>
+            </footer>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
