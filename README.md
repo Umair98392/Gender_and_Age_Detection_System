@@ -45,6 +45,5 @@ The project is divided into the following steps:
 To get started, clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/yourusername/Gender_and_Age_Detection_System.git
+git clone https://github.com/Umair98392/Gender_and_Age_Detection_System.git
 cd Gender_and_Age_Detection_System
-pip install -r requirements.txt
